@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Time tracking dashboard</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images_TTDB/favicon-32x32.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Veijo Kasanen"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+
+<body>
+  <div class="grid-container">
+    <!-- Report -->
+    <div class="grid-item">
+      <div class="boxR">
+        <div class="bottomR">
+          <div class="content">
+            <img src="images_TTDB/image-jeremy.png" class="profile">
+            <p>Report for</p>
+            <h4>Jeremy Robson</h4>
+          </div>
+        </div>
+
+        <div class="content bottomContent">
+          <p class="RButtons" id="btn1">Daily</p>
+          <p class="RButtons" id="btn2">Weekly</p>
+          <p class="RButtons" id="btn3">Monthly</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work -->
+    <div class="grid-item">
+      <div class="box work">
+        <img src="images_TTDB/icon-work.svg" class="icons">
+        <div class="bottom">
+          <div class="content">
+            <h1>Work</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="work1">32hrs</h2>
+            <p id="work2">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Play -->
+    <div class="grid-item">
+      <div class="box play">
+        <img src="images_TTDB/icon-play.svg" class="icons">
+        <div class="bottom">
+          <div class="content">
+            <h1>Play</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="play1">10hrs</h2>
+            <p id="play2">Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Study -->
+    <div class="grid-item">
+      <div class="box study">
+        <img src="images_TTDB/icon-study.svg" class="icons">
+        <div class="bottom">
+          <div class="content">
+            <h1>Study</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="stud1">4hrs</h2>
+            <p id="stud2">Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exrecise -->
+    <div class="grid-item">
+      <div class="box exercise">
+        <img src="images_TTDB/icon-exercise.svg" class="icons fixed">
+        <div class="bottom">
+          <div class="content">
+            <h1>Exercise</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="exer1">4hrs</h2>
+            <p id="exer2">Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="grid-item">
+      <div class="box social">
+        <img src="images_TTDB/icon-social.svg" class="icons">
+        <div class="bottom">
+          <div class="content">
+            <h1>Social</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="soci1">5hrs</h2>
+            <p id="soci2">Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Self Care -->
+    <div class="grid-item">
+      <div class="box selfcare">
+        <img src="images_TTDB/icon-self-care.svg" class="icons">
+        <div class="bottom">
+          <div class="content">
+            <h1>Self Care</h1>
+            <input type="image" src="images_TTDB/icon-ellipsis.svg" class="ellipsis">
+            <h2 id="self1">2hrs</h2>
+            <p id="self2">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
